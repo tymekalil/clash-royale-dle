@@ -3,3 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/background-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.main {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cards-el {
+  width: 100%;
+  height: 20%;
+}
+
+.card-info {
+  width: 100%;
+  height: 10%;
+  background-color: lightblue;
+  display: flex;
+}
+
+.answers-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.answer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.card-tile {
+  width: 100px;
+  height: 100px;
+  font-size: 1.3rem;
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
